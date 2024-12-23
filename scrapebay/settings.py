@@ -28,7 +28,7 @@ ROBOTSTXT_OBEY = False
 # See also autothrottle settings and docs
 #DOWNLOAD_DELAY = 3
 
-DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 1
 
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
@@ -75,12 +75,12 @@ DOWNLOAD_DELAY = 3
 #AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 
-AUTOTHROTTLE_START_DELAY = 5
+AUTOTHROTTLE_START_DELAY = 1
 # The maximum download delay to be set in case of high latencies
 AUTOTHROTTLE_MAX_DELAY = 60
 # The average number of requests Scrapy should be sending in parallel to
 # each remote server
-AUTOTHROTTLE_TARGET_CONCURRENCY = 50
+AUTOTHROTTLE_TARGET_CONCURRENCY = 10
 
 #AUTOTHROTTLE_START_DELAY = 5
 # The maximum download delay to be set in case of high latencies
